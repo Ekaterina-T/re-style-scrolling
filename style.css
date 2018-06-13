@@ -1,6 +1,39 @@
 .scrollable {
-    width: 50%;
-    height: 200px;
-    overflow: auto;
-    border: 1px solid black;
+width: 50%;
+height: 200px;
+overflow: auto;
+border: 1px solid black;
+}
+
+/* webkit styles */
+
+::-webkit-scrollbar { 
+/* 1 - скроллбар */ 
+width: 10px;
+}
+
+::-webkit-scrollbar-button { 
+/* 2 - кнопка */ 
+}
+
+::-webkit-scrollbar-track { 
+/* 3 - трек */
+background-color: coral;
+}
+::-webkit-scrollbar-track-piece { 
+/* 4 - видимая часть трека */ 
+}
+
+::-webkit-scrollbar-thumb { 
+/* 5 - ползунок */ 
+width: 10px;
+border: 1px solid chocolate;
+border-radius: 3px;
+background-color: crimson;
+}
+::-webkit-scrollbar-corner { 
+/* 6 - уголок */ 
+}
+::-webkit-resizer  { 
+/* 7 - изменение размеров */ 
 }
